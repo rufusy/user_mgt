@@ -1,0 +1,421 @@
+body, .content-wrapper {
+    background-color: #fafafa !important;
+}
+
+body {
+    font-family: GT-America-Standard,"Helvetica Neue",Helvetica,Arial,sans-serif;;
+    color: #0b1b34;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* Navigation bars styling */
+.main-sidebar {
+    background-color: #304186 !important;
+}
+
+.main-sidebar li  {
+    padding: 5px 0;
+}
+
+[class*="sidebar-dark-"] .sidebar a {
+    color: #fff;
+}
+
+[class*="sidebar-dark-"] .sidebar a:hover {
+    color: #aed6f1;
+    text-decoration: none !important;
+}
+
+[class*="sidebar-dark-"] .nav-sidebar > .nav-item.menu-open > .nav-link,
+[class*="sidebar-dark-"] .nav-sidebar > .nav-item:hover > .nav-link,
+[class*="sidebar-dark-"] .nav-sidebar > .nav-item > .nav-link:focus {
+    background-color: #304186;
+    color: #aed6f1;
+    transition: all .5s ease-in-out;
+}
+
+[class*="sidebar-dark-"] .nav-sidebar > .nav-item > .nav-link:active {
+    background-color: #304186;
+    color: #aed6f1;
+    transition: all .5s ease-in-out;
+}
+
+.page-header {
+    border-bottom: 1px solid #ececec;
+    color: #0b1b34;
+    line-height: 30px;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+/* Buttons styling */
+.btn {
+    box-shadow: none;
+    font-weight: 700;
+    transition: all .5s ease;
+}
+
+.btn-group {
+    margin-right: 5px;
+}
+
+.btn-spacer {
+    margin-right: 5px;
+}
+
+.btn:focus {
+    border-color: transparent !important;
+    outline: none !important;
+}
+
+.btn-success
+{
+    background-color: #304186 !important;
+    border-color: #304186 !important;
+    color: #fff !important;
+}
+
+.btn-success:hover, .btn-success:active, .btn-success:focus {
+    color: #fff !important;
+    background-color: #aed6f1 !important;
+    border-color: #aed6f1 !important;
+    text-decoration: none;
+}
+
+.btn-link{
+    font-weight: 400;
+    color: #304186;
+    text-decoration: none;
+}
+
+.btn-link:focus{
+    text-decoration: underline !important;
+    box-shadow: none !important;
+}
+
+.btn-link:hover{
+    color: #304186;
+    text-decoration: underline !important;
+}
+
+.registered-student {
+    margin-bottom: 10px;
+}
+
+.login-options-title {
+    color: #0b1b34;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.reg-student-btn,
+.complete-reg-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reg-student-btn {
+    background-color: #304186;
+    border-color: #304186;
+    color: #fff;
+}
+
+.complete-reg-btn,
+.btn-cancel-login {
+    background-color: #fff;
+    border-color: #304186;
+    color: #304186;
+}
+
+.reg-student-btn:hover,
+.complete-reg-btn:hover,
+.btn-cancel-login:hover {
+    background-color: #aed6f1;
+    border-color: #aed6f1;
+    color: #fff;
+}
+
+.reg-file-download-btn, .view-reg-files-link{
+    background-color: #fff;
+    border-color: #304186;
+    color: #304186;
+}
+
+.reg-file-download-btn:hover, .view-reg-files-link:hover{
+    background-color: #fff;
+    border-color: #304186;
+    color: #304186;
+    text-decoration: underline !important;
+}
+
+.reg-file-delete-btn{
+    background-color: #fff;
+    border-color: #fc3826;
+    color: #fc3826;
+}
+
+.reg-file-delete-btn:hover{
+    background-color: #fff;
+    border-color: #fc3826;
+    color: #fc3826;
+    text-decoration: underline !important;
+}
+
+/* Cards styling */
+.card {
+    box-shadow: 0 8px 16px rgb(0 0 0 / 3%), 0 3px 6px rgb(0 0 0 / 4%);
+}
+
+.card .card-body {
+    border-radius: .25rem;
+}
+
+.card-primary.card-outline{
+    border-top: none;
+}
+
+.card-title {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    padding-top: 10px;
+}
+
+.card-header,
+.grid-view .grid-header,
+.modal .modal-header,
+.grid-view .card-header
+{
+    background-color: #fff !important;
+    border-bottom: none;
+}
+
+/* tables styling */
+.table thead th {
+    border-bottom: none;
+    font-weight: 400!important;
+}
+
+.table tbody td {
+    font-weight: 300!important;
+}
+
+.table-info, .table-info > td, .table-info > th {
+    background-color: #fff !important;
+}
+
+.table-danger td {
+    background-color: grey;
+    border-color: grey;
+    color: #fff !important;
+}
+
+.table-danger td > a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+.table-hover .table-danger:hover > td {
+    background-color: green;
+}
+
+.grid-view .pagination .page-link {
+    color: #03d47c !important;
+}
+
+.grid-view .pagination .active .page-link {
+    color: #fff !important;
+    background-color: #03d47c !important;
+    border-color: #03d47c !important;
+}
+
+/* Status and hints styling */
+.status {
+    border-radius: 5px !important;
+    color: #fff;
+    height: 34px;
+    padding: 8px 0px;
+    line-height: 1.4;
+}
+
+.status-approved
+{
+    color: #03d47c !important;
+}
+
+.status-pending {
+    color: #304186 !important;
+}
+
+.status-rejected
+{
+    color: #fc3826 !important;
+}
+
+.status-review {
+    color: #ffbf00 !important;
+}
+
+.bg-blue{
+    background-color: #304186 !important;
+}
+.bg-red{
+    background-color: #fc3826 !important;
+}
+.bg-green {
+    background-color: #03d47c !important;
+}
+
+.action-text-success {
+    color: #03d47c;
+    text-decoration: none;
+}
+
+.action-text-info {
+    color: #304186;
+    text-decoration: none;
+}
+
+.action-text-danger {
+    color: #fc3826;
+    text-decoration: none;
+}
+
+.action-text-archive {
+    color: #ffbf00;
+    text-decoration: none;
+}
+
+.loader {
+    color: #304186 !important;
+    font-size: 20px !important;
+    padding: 10px 0;
+}
+
+.error-display {
+    color: #831d14;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+/* Date range picker widget styling */
+.daterangepicker .ranges .active {
+    background-color: #03d47c !important;
+}
+
+.daterangepicker .drp-buttons .drp-selected {
+    color: #03d47c !important;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #03d47c !important;
+}
+
+.daterangepicker .btn-primary.disabled, .daterangepicker .btn-primary:disabled {
+    background-color: #03d47c !important;
+    border-color: #03d47c;
+}
+
+/* Forms styling */
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-weight: 400 !important;
+}
+
+.form-group .help-block{
+    color: #fc3826;
+    font-size: 80%;
+}
+
+.required-control-label:after {
+    content:" *";
+    color:#fc3826;
+}
+
+.form-control,
+label {
+    color: #0b1b34;
+}
+
+.form-control {
+    background-color: transparent !important;
+}
+
+.form-control:focus, .form-control:active{
+    border-color: #304186 !important;
+    background-color: #fff !important;
+    color: #0b1b34 !important;
+}
+
+/* Select 2 */
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #304186 !important;
+    border-color: #304186 !important;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--single
+{
+    border-color: #304186 !important;
+}
+
+.text-muted {
+    color: #7d8b8f !important;
+}
+
+.callout{
+    box-shadow: 0 8px 16px rgb(0 0 0 / 3%), 0 3px 6px rgb(0 0 0 / 4%);
+}
+
+.callout.callout-info {
+    border-left-color: #304186 !important;
+}
+
+.callout.callout-danger {
+    border-left-color: #fc3826 !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #304186!important;
+    border-color: #304186!important;
+}
+
+.custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before {
+    box-shadow: #304186!important;
+    border-color: #304186!important;
+}
+
+.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: #304186!important;
+    border-color: #304186!important;
+}
+
+.custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
+    background-color: #304186 !important;
+    border-color: #304186!important;
+}
+
+/* Nav tabs styling */
+.nav-tabs.flex-column {
+    border-right: none !important;;
+}
+.nav-tabs .nav-link {
+    border: none !important;
+}
+
+.nav-tabs .nav-link:hover{
+    text-decoration: underline;
+}
