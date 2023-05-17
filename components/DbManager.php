@@ -26,18 +26,18 @@ class DbManager extends \yii\rbac\DbManager
         /**
          * @var string the name of the table storing authorization items. Defaults to "auth_item".
          */
-        $this->itemTable = DB_SCHEMA . '.auth_item';
+        $this->itemTable = DB_SCHEMA . '.um_auth_item';
         /**
          * @var string the name of the table storing authorization item hierarchy. Defaults to "auth_item_child".
          */
-        $this->itemChildTable = DB_SCHEMA . '.auth_item_child';
+        $this->itemChildTable = DB_SCHEMA . '.um_auth_item_child';
         /**
          * @var string the name of the table storing authorization item assignments. Defaults to "auth_assignment".
          */
-        $this->assignmentTable = DB_SCHEMA . '.auth_assignment';
+        $this->assignmentTable = DB_SCHEMA . '.um_auth_assignment';
         /**
          * @var string the name of the table storing rules. Defaults to "auth_rule".
          */
-        $this->ruleTable = DB_SCHEMA . '.auth_rule';
+        $this->ruleTable = DB_SCHEMA . '.um_auth_rule';
     }
 }
