@@ -26,7 +26,7 @@ class AuthItem extends ActiveRecord
      */
     public static function tableName(): string
     {
-        return DB_SCHEMA . '.auth_item';
+        return DB_SCHEMA . '.um_auth_item';
     }
 
     /**

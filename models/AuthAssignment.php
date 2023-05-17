@@ -21,7 +21,7 @@ class AuthAssignment extends ActiveRecord
      */
     public static function tableName(): string
     {
-        return DB_SCHEMA . '.auth_assignment';
+        return DB_SCHEMA . '.um_auth_assignment';
     }
 
     /**

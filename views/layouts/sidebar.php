@@ -35,18 +35,6 @@ use yii\helpers\Url;
                         <p>Roles</p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="<?= Url::to(['#']); ?>" class="nav-link">
-                        <i class="nav-icon fas fa-lock" aria-hidden="true"></i>
-                        <p>Permissions</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?= Url::to(['#']); ?>" class="nav-link">
-                        <i class="nav-icon fa fa-cogs" aria-hidden="true"></i>
-                        <p>Rules</p>
-                    </a>
-                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

@@ -28,7 +28,7 @@ class Employee extends ActiveRecord
      */
     public static function tableName(): string
     {
-        return DB_SCHEMA . '.employees';
+        return DB_SCHEMA . '.um_employees';
     }
 
     /**

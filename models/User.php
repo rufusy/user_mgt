@@ -33,7 +33,7 @@ class User extends ActiveRecord implements IdentityInterface
      */
     public static function tableName(): string
     {
-        return DB_SCHEMA . '.users';
+        return DB_SCHEMA . '.um_users';
     }
 
     /**

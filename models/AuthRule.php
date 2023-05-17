@@ -22,7 +22,7 @@ class AuthRule extends ActiveRecord
      */
     public static function tableName(): string
     {
-        return DB_SCHEMA . '.auth_rule';
+        return DB_SCHEMA . '.um_auth_rule';
     }
 
     /**
